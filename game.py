@@ -10,6 +10,7 @@ directory = askdirectory()
 os.chdir(directory)
 song_list = os.listdir()
 #sfhdsgvfjdsvfhdsfhsd
+#comments
 play_list = tkr.Listbox(music_player, font="Helvetica 12 bold", bg='yellow', selectmode=tkr.SINGLE)
 for item in song_list:
     pos = 0
